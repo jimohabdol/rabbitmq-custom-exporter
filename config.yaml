@@ -1,0 +1,12 @@
+# RabbitMQ Custom Exporter Configuration
+# This file can be used to configure the exporter instead of command-line flags
+
+# RabbitMQ connection settings
+rabbitmq_url: "http://localhost:15672"
+rabbitmq_username: "guest"
+rabbitmq_password: "guest"
+
+# Exporter settings
+scrape_interval: "15s"
+listen_port: 9419
+timeout: "10s" 
